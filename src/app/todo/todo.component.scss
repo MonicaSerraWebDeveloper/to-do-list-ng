@@ -1,0 +1,21 @@
+main {
+    height: calc(100vh - 120px);
+
+    .input-container {
+        border: 2px solid blue;
+        height: 100%;
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+
+        .example-form {
+            width: 100%;
+          }
+          
+          .example-full-width {
+            width: 100%;
+          }
+    }
+
+    
+}

@@ -1,0 +1,27 @@
+header {
+    background-color: beige;
+    color: #3e3e3e;
+    height: 60px;
+
+    .toolbar-container {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        mat-toolbar {
+            background-color: beige;
+
+            .title-toolbar {
+                font-size: 18px;
+                font-weight: 600;
+                letter-spacing: 2px;
+                text-align: center;
+                width: 100%;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
